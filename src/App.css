@@ -1,0 +1,50 @@
+@keyframes gradient {
+  0% {
+    background: rgb(234, 234, 234);
+    background: -moz-linear-gradient(
+      135deg,
+      rgba(234, 234, 234, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      135deg,
+      rgba(234, 234, 234, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    background: linear-gradient(
+      135deg,
+      rgba(234, 234, 234, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eaeaea",endColorstr="#ffffff",GradientType=1);
+  }
+  100% {
+    background: rgb(234, 234, 234);
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(234, 234, 234, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(234, 234, 234, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(234, 234, 234, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eaeaea",endColorstr="#ffffff",GradientType=1);
+  }
+}
+.prev-animation{
+    transform: rotate(-45deg);
+    top: -100%;
+    left: -100%;
+    transition: 2s;
+}
+.aprent:hover .prev-animation{
+    bottom: -100%;
+    right: -100%;
+}
