@@ -94,7 +94,7 @@ const HamburgerNav = ({ hamMenu }: Menu) => {
             <li className="mt-3 cursor-pointer flex items-center hover:bg-lightGray hover:text-[black] rounded-xl p-2 text-sm w-full">
               <Link
                 className="flex items-center w-full h-full"
-                to="/"
+                to="/about"
                 onClick={() => setMenuStatus(false)}
               >
                 <span className="flex justify-center items-center mr-2">
